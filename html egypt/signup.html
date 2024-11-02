@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up!</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="attractions.html">Egyptian Attractions</a>
+                </li>
+                <li>
+                    <a href="food.html">Our amazing Food</a>
+                </li>
+                <li>
+                    <a href="egyptianmusic.html">Music of Egypt</a>
+                </li>
+                <li>
+                    Sign Up
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <form id="next-trip-form">
+        <div class="egyptform">
+            <h1>Sign this if you want a trip to Egypt</h1>
+            <p>Please fill this form.</p>
+        </div>
+
+        <div id="fullname">
+            <label for="fullname">Full Name:</label>
+            <input type="text" id="fullname" name="fullname" required>
+        </div>
+
+        <div id="email">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="email@gmail.com" required>
+        </div>
+
+        <div id="tel">
+            <label for="tel">Telephone:</label>
+            <input type="tel" id="tel" name="tel" placeholder="0506380577" required minlength="11" maxlength="14"> 
+        </div>
+
+        <div id="gender">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="email@gmail.com" required>
+        </div>
+
+        <div id="gender">
+            <label>Gender:</label>
+            <div>
+                <input type="radio" name="gender" id="male" value="male">
+                <label class="inline-label" for="male">Male</label>
+            </div>
+            <div></div>
+                <input type="radio" name="gender" id="female" value="female">
+                <label class="inline-label" for="female">Female</label>
+            </div>
+        </div>
+
+        <div class="date">
+            <label for="arrival_date">Arrivng Date:</label>
+            <input type="date" id="arrival_date" name="arrival_date">
+        </div>
+
+        <div class="date">
+            <label for="departure_date">Arrivng Date:</label>
+            <input type="date" id="departure_date" name="departure_date">
+        </div>
+
+        <div class="profile">
+            <label for="profile_picture">Profile Picture:</label>
+            <input type="profile" id="profile_picture" name="profile_picture">
+        </div>
+
+        <div class="passport">
+            <label for="passport">Passport:</label>
+            <input type="file" id="passport" name="passport">
+        </div>
+
+        <div>
+            <label for="cities">Where would you like to travel?</label>
+            <select id="cities" name="cities">
+                <option value=""></option>
+                <option value="Cairo">Cairo</option>
+                <option value="Alexandria">Alexandria</option>
+                <option value="Hurghada">Hurghada</option>
+                <option value="Aswan">Aswan</option>
+                <option value="Sharm">Sharm</option>
+            </select>
+        </div>
+
+        <div>
+            <label>Services that you needed:</label>
+            <div>
+                <input type="checkbox" name="services" value="rental_car">
+                <label class="inline-label" for="services">Rental car</label>
+            </div>
+            <div>
+                <input type="checkbox" name="services" value="hotel_accommodations">
+                <label class="inline-label" for="services">Hotel accommodations</label>
+            </div>
+            <div>
+                <input type="checkbox" name="services" value="airline_tickets">
+                <label class="inline-label" for="services">Airline tickets</label>
+            </div>
+        </div>
+
+        <div>
+            <label for="travel_method">How will you travel?</label>
+            <div>
+                <input type="radio" name="travel_method" id="by_air" value="by_air">
+                <label class="inline-label" for="by_air">By Air</label>
+            </div>
+            <div>
+                <input type="radio" name="travel_method" id="by_train" value="by_train">
+                <label class="inline-label" for="by_train">By Train</label>
+        </div>
+        <div>
+            <input type="radio" name="travel_method" id="by_bus" value="by_bus">
+            <label class="inline-label" for="by_bus">By Bus</label>
+        </div>
+        <div>
+            <input type="radio" name="travel_method" id="by_car" value="by_car">
+            <label class="inline-label" for="by_car">By Car</label>
+        </div>
+        </div>
+
+        <div>
+            <label for="message">Leave your message:</label>
+            <textarea rows="4" id="message" name="message"></textarea>
+        </div>
+
+        <div>
+            <input type="reset" value="reset">
+            <input type="submit" value="Submit">
+        </div>
+
+
+
+    </form>
+</body>
+</html>

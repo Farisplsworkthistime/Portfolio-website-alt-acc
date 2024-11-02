@@ -1,0 +1,110 @@
+.the_first_title{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+    opacity:0.9;
+    color: rgb(209, 209, 170);
+    font-size: 150px;
+    text-align: center;
+}
+
+body{
+    background-image: url(pyramids.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    width: 90%;
+    max-width: 100%;
+    font-family: 'raleway';
+    padding: 20px;
+    border: transparent;
+    border-color: #888888;
+}
+
+nav ul{
+    background-color: sandybrown;
+    border-style: solid;
+    border-width: 1px;
+    border-color: seashell;
+    padding: 15px;
+    border-radius: 100px;
+}
+
+nav ul li{
+    display: inline;
+    margin-right: 10px;
+    margin-left: 10px;
+    color: papayawhip;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: olive;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+.inline-label{
+    display: inline;
+}
+
+html{
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+label{
+    margin-bottom: 1em;
+    padding: 20px;
+    width: 80%;
+}
+
+.inline-label{
+    display: inline;
+}
+
+input,
+select,
+textarea{
+    display: block;
+    width: 100%;
+    padding: 4px;
+    max-width: 600px;
+    font-size: 20px;
+    background-color: #fbfbfb;
+    border: solid 1px #ccc;
+    border-radius: 10px;
+}
+
+input[type="email"],
+input[type="tel"] {
+    margin-bottom: 1em;
+}
+
+select{
+    color: indigo;
+    background-color: bisque;
+}
+
+textarea{
+    min-height: 180px;
+}
+
+input[type=checkbox],
+input[type=radio] {
+    display: inline;
+    width: auto;
+}
+
+.egyptform{
+    text-align: center;
+}
+
+form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(160, 160, 160);
+}
